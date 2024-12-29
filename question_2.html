@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="icon" href="ico.png" type="image/x-icon" />
+    <title>BUMBLE Math Warm-up</title>
+    <link rel="stylesheet" href="bleach.css">
+    <style>
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+  <a href="bleach.html">Home</a>
+        <a href="search.html" ">Search</a>
+  <a href="cart.html">Checkout</a>
+  <a href="question_1.html">Grass pass</a>
+  <a href="question_2.html" class="active">Edibles</a>
+        <a href="question_3.html">Vapes</a>
+        <a href="question_4.html">Flowers</a>
+        <a href="question_5.html">Shrooms</a>
+        <a href="question_6.html">Concentrates</a>
+        <a href="question_7.html">Nic Vapes</a>
+            <a href="question_8.html">Bongs</a>
+            <a href="question_9.html">Prerolls</a>
+            <a href="question_10.html"></a>
+  <a href="index.html">HIDE!!</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Edibles</h1>
+
+    </header>
+  <div class="announcement">
+    <p>BUY THE GRASS PASS TODAY!!&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;<a href="question_1.html">Buy</a></p>
+  </div>
+    <br>
+    
+    <!-- Product Section (products side by side) -->
+    <div class="products-container">
+
+       <div class="product">
+            <img src="p48.jpg" alt="Product Image" class="product-img">
+            <h2>NUMB DELTA 9 BROWNIES - 200MG</h2>
+            <p>$50.00</p>
+            <button class="add-to-cart" onclick="addToCart('NUMB DELTA 9 BROWNIES - 200MG')">Add to cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="p1.jpg" alt="Product Image" class="product-img">
+            <h2>COASTAL CLOUDS DELTA 8 APPLE WATERMELON GUMMIES - 2CT</h2>
+            <p>$40.00</p>
+            <button class="add-to-cart" onclick="addToCart('COASTAL CLOUDS DELTA 8 APPLE WATERMELON GUMMIES - 2CT')">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="p2.jpg" alt="Product Image" class="product-img">
+            <h2>COASTAL CLOUDS HHC PINEAPPLE GUMMIES - 2CT</h2>
+            <p>$40.00</p>
+            <button class="add-to-cart" onclick="addToCart('COASTAL CLOUDS HHC PINEAPPLE GUMMIES - 2CT')">Add to cart</button>
+        </div>
+      
+        
+       
+        
+      
+
+        <div class="product">
+            <img src="p7.jpg" alt="Product Image" class="product-img">
+            <h2>MUNCHIES DELTA 9 COCOA FUDGE CEREAL CRUNCHIES - 500MG</h2>
+            <p>$50.00</p>
+            <button class="add-to-cart" onclick="addToCart('MUNCHIES DELTA 9 COCOA FUDGE CEREAL CRUNCHIES - 500MG')">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="p8.jpg" alt="Product Image" class="product-img">
+            <h2>MUNCHIES DELTA 9 CINNAMON BRULEE CEREAL CRUNCHIES - 500MG</h2>
+            <p>$50.00</p>
+            <button class="add-to-cart" onclick="addToCart('MUNCHIES DELTA 9 CINNAMON BRULEE CEREAL CRUNCHIES - 500MG')">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="p9.jpg" alt="Product Image" class="product-img">
+            <h2>MUNCHIES DELTA 9 DOUBLE RAINBOW CEREAL CRUNCHIES - 500MG</h2>
+            <p>$50.00</p>
+            <button class="add-to-cart" onclick="addToCart('MUNCHIES DELTA 9 DOUBLE RAINBOW CEREAL CRUNCHIES - 500MG')">Add to cart</button>
+        </div>
+       
+       
+        <div class="product">
+            <img src="p37.jpg" alt="Product Image" class="product-img">
+            <h2>DISCO MAGIC MUSHROOM GRAVITY GUMMIES - 2000MG</h2>
+            <br>
+            <p>Grass pass only</p>
+            <button class="add-to-cart" onclick="addToCart('DISCO MAGIC MUSHROOM GRAVITY GUMMIES - 2000MG')">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="p38.jpg" alt="Product Image" class="product-img">
+            <h2>TRE HOUSE MAGIC MUSHROOM BLUE RASPBERRY GUMMIES</h2>
+            <br>
+            <p>Grass pass only</p>
+            <button class="add-to-cart" onclick="addToCart('TRE HOUSE MAGIC MUSHROOM BLUE RASPBERRY GUMMIES')">Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="p39.jpg" alt="Product Image" class="product-img">
+            <h2>DREAM DOSE STRAWBERRY STARDUST MUSHROOM GUMMIES</h2>
+            <p>$50.00</p>
+            <button class="add-to-cart" onclick="addToCart('DREAM DOSE STRAWBERRY STARDUST MUSHROOM GUMMIES')">Add to cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="p40.jpg" alt="Product Image" class="product-img">
+            <h2>DREAMER MAGIC MUSHROOM ASSORTED FLAVOR GUMMIES - 300MG (6CT)</h2>
+            <br>
+            <p>Grass pass GOLD</p>
+            <button class="add-to-cart" onclick="addToCart('DREAMER MAGIC MUSHROOM ASSORTED FLAVOR GUMMIES - 300MG (6CT)')">Add to cart</button>
+       </div>
+     
+        
+       
+    </div>
+
+    
+       
+      
+    <script src="bleach.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Order logs go here
+
+grass passes are A00
+order codes are A000A
+
+a000z
+b001a
+
+__________________________________________________________________
+!LOG#A01!
+order#A000B
+order_gm=bumblebeemath@gmail.com
+package=MUSHY MAGIC MUSHROOM VAPORIZER - 2200MG
+price=$57.00
+date=7:01PM MON, Dec 9
+__________________________________________________________________

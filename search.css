@@ -1,0 +1,162 @@
+/* General Body Styles */
+body {
+    background-color: darkgreen;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: limegreen;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 0;
+}
+
+/* Search Input */
+.search-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid limegreen;
+    color: limegreen;
+    background-color: #1c1c1c;
+    outline: none;
+}
+
+#search-input::placeholder {
+    color: limegreen;
+}
+
+/* Product Section */
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.product {
+    text-align: center;
+    background-color: #2e8b57; /* Slightly lighter green for product cards */
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.product h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.product-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.add-to-cart {
+    background-color: limegreen;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    min-width: 120px;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+.add-to-cart:hover {
+    background-color: #32cd32;
+}
+
+/* No Results Message */
+.no-results-message {
+    text-align: center;
+    color: #FF6347;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Cart Button */
+.cart-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon {
+    background: url('https://static.thenounproject.com/png/1074958-200.png') no-repeat center center;
+    width: 20px;
+    height: 20px;
+}
+
+/* Checkout and Redirect Buttons */
+.checkout-btn, .redirect-btn {
+    background-color: #32cd32; /* Bright green */
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.checkout-btn:hover, .redirect-btn:hover {
+    background-color: limegreen;
+}
+
+/* Announcement */
+.announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: #46FF00;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 0.8em;
+}
